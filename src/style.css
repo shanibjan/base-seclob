@@ -25,3 +25,7 @@
     font-weight: normal;
     src: local('Gordita Medium'), url('./fonts/gordita/Gordita Medium.woff') format('woff');
     }
+
+    #file-upload-button{
+      display: none;
+    }

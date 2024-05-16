@@ -6,8 +6,10 @@ import gitHub from "../images/Vector.png";
 import twitter from "../images/Vector (1).png";
 import discord from "../images/carbon_logo-discord.png";
 import linkedIn from "../images/carbon_logo-linkedin.png";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
+  const nav=useNavigate()
   return (
     <div className="login-page-base">
       {/* <div class="flex overflow-hidden relative flex-col grow items-start px-14 py-16 fill-indigo-500 min-h-[1024px] max-md:px-5 max-md:mt-10 max-md:max-w-full">
@@ -139,7 +141,9 @@ function Login() {
                 <div class="mt-7 text-blue-600 max-md:max-w-full">
                   Forgot password?
                 </div>
-                <div class="justify-center items-center px-16 py-3.5 mt-6 font-bold text-center text-white bg-indigo-500 rounded-xl max-md:px-5 max-md:max-w-full">
+                <div onClick={()=>{
+                  nav('/dash-board')
+                }} class="justify-center items-center px-16 py-3.5 mt-6 font-bold text-center text-white bg-indigo-500 rounded-xl max-md:px-5 max-md:max-w-full cursor-pointer">
                   Sign In
                 </div>
               </div>
