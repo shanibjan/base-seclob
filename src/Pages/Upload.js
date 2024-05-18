@@ -214,7 +214,7 @@ function Upload() {
               <div class="w-full text-2xl font-semibold leading-8 text-black max-md:max-w-full">
                 Uploads
               </div>
-              <div class="flex flex-col py-5 pl-4 mt-12 w-full text-sm rounded-lg bg-neutral-100 text-stone-800 max-md:mt-10 max-md:max-w-full relative max-[1160px]:px-[10%]">
+              <div class="flex flex-col p-4 mt-12 w-full text-sm rounded-lg bg-neutral-100 text-stone-800 max-md:mt-10 max-md:max-w-full relative max-[1160px]:px-[10%]">
                 <div class="flex gap-[120px] self-center w-full font-semibold leading-[171%]  max-md:flex-wrap max-md:max-w-full max-[930px]:hidden">
                   <div class="flex gap-[73px]">
                     <div>Sl No.</div>
@@ -229,7 +229,7 @@ function Upload() {
                   <div class="flex gap-5 justify-between self-start"></div>
                   <div class="flex gap-5 justify-between max-md:flex-wrap max-md:w-full absolute right-[77px] max-[1160px]:hidden"><div>Selected Tags</div></div>
                 </div>
-                <div class="flex gap-5 justify-between items-center py-3.5 pl-4 mt-4 w-full leading-6 bg-white rounded-lg max-md:flex-wrap max-md:w-full max-[1160px]:grid">
+                <div class="flex gap-5 justify-between items-center p-3 mt-4 w-full leading-6 bg-white rounded-lg max-md:flex-wrap max-md:w-full max-[1160px]:grid">
                   <div class="flex gap-14 max-[930px]:grid max-[930px]:gap-0">
                     <div class="self-stretch my-auto">01</div>
                     <div class="self-stretch my-auto text-blue-400 underline leading-[171%]">
@@ -278,7 +278,7 @@ function Upload() {
                     
                   </div>
                 </div>
-                <div class="flex gap-5 justify-between items-center py-3.5 pl-4 mt-4 w-full leading-6 bg-white rounded-lg max-md:flex-wrap max-md:max-w-full max-[1160px]:grid">
+                <div class="flex gap-5 justify-between items-center p-3 mt-4 w-full leading-6 bg-white rounded-lg max-md:flex-wrap max-md:max-w-full max-[1160px]:grid">
                   <div class="flex gap-14 max-[930px]:grid max-[930px]:gap-0">
                     <div class="self-stretch my-auto">02</div>
                     <div class="self-stretch my-auto text-blue-400 underline leading-[171%]">
@@ -318,7 +318,7 @@ function Upload() {
                     </div>
                   </div>
                 </div>
-                <div class="flex gap-5 justify-between items-center py-3.5 pl-4 mt-4 w-full leading-6 bg-white rounded-lg max-md:flex-wrap max-md:max-w-full max-[1160px]:grid">
+                <div class="flex gap-5 justify-between items-center p-3 mt-4 w-full leading-6 bg-white rounded-lg max-md:flex-wrap max-md:max-w-full max-[1160px]:grid">
                   <div class="flex gap-14 max-[930px]:grid max-[930px]:gap-0">
                     <div class="self-stretch my-auto">03</div>
                     <div class="self-stretch my-auto text-blue-400 underline leading-[171%]">
@@ -372,8 +372,8 @@ function Upload() {
                     
                   </div>
                 </div>
-                <div class="flex z-10 gap-0 mt-0 max-md:flex-wrap max-md:pr-5">
-                  <div class="flex flex-auto gap-5 justify-between items-center self-end py-3.5 pr-20 pl-4 mt-6 w-full bg-white rounded-lg leading-[171%] max-md:flex-wrap max-md:pr-5 max-md:max-w-full max-[1160px]:grid">
+                <div class="flex z-10 gap-0 mt-0 max-md:flex-wrap">
+                  <div class="flex flex-auto gap-5  items-center self-end  p-3 mt-6 w-full bg-white rounded-lg leading-[171%] max-md:flex-wrap  max-md:max-w-full max-[1160px]:grid">
                     <div class="flex gap-14 max-[930px]:grid max-[930px]:gap-0">
                       <div class="self-stretch my-auto">04</div>
                       <div class="self-stretch my-auto text-blue-400 underline leading-[171%]">
@@ -383,7 +383,7 @@ function Upload() {
                       5e7TzC8
                       </div>
                       <div class="flex gap-2 justify-center self-stretch px-3 py-1 bg-white rounded-lg border border-solid border-zinc-100 max-md:px-5">
-                      <select>
+                    <select>
                       <option>Select Tags</option>
                       <option>Technology</option>
                       <option>Fashion</option>
@@ -392,7 +392,7 @@ function Upload() {
                       <option>Art</option>
                       <option>Education</option>
                       </select>
-                      </div>
+                    </div>
                     </div>
                   </div>
                   {/* <div
@@ -406,7 +406,7 @@ function Upload() {
         </div>
       </div> */}
                 </div>
-                <div class="flex gap-5 justify-between items-center mt-6 py-3.5 pl-4 w-full bg-white rounded-lg leading-[171%] max-md:flex-wrap max-md:max-w-full max-[1160px]:grid">
+                <div class="flex gap-5 justify-between items-center mt-6 p-3 w-full bg-white rounded-lg leading-[171%] max-md:flex-wrap max-md:max-w-full max-[1160px]:grid">
                   <div class="flex gap-14 max-[930px]:grid max-[930px]:gap-0">
                     <div class="self-stretch my-auto">05</div>
                     <div class="self-stretch my-auto text-blue-400 underline leading-[171%]">
@@ -427,7 +427,7 @@ function Upload() {
                       </select>
                     </div>
                   </div>
-                  <div class="flex flex-wrap gap-2 content-start self-stretch pr-3.5 my-auto text-xs font-semibold tracking-wide leading-4 text-center text-white uppercase">
+                  <div class="flex flex-wrap gap-2 content-start self-stretch  my-auto text-xs font-semibold tracking-wide leading-4 text-center text-white uppercase">
                     <div class="flex gap-1 py-1 pr-1 pl-2 bg-indigo-500 rounded">
                       <div>Technology</div>
                       <img
